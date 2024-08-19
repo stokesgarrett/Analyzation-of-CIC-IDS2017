@@ -1,8 +1,3 @@
-On elastic, go to dev tools, and in the console paste the code below
-once pasted click green arrow to the right of PUT line
-after it should say ackowledged true, which you can then upload csv file from
-generatedlabelflows file, and it should be read
-
 PUT /_index_template/cic-ids-2017
    {
         "index_patterns": [
